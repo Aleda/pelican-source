@@ -114,6 +114,7 @@ cf_upload: publish
 
 github: publish
 	#ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
+	pwd
 	@echo 'cd ../Aleda.github.io'
 	cd ../Aleda.github.io
 	pwd
