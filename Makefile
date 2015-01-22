@@ -94,6 +94,7 @@ stopserver:
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+	cp CNAME ./output
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
@@ -114,17 +115,5 @@ cf_upload: publish
 
 github: publish
 	#ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-	pwd
-	@echo 'cd ../Aleda.github.io'
-	cd ../Aleda.github.io
-	pwd
-	@echo 'rm -rf !(.git)'
-	rm -rf '!(.git)'
-	@echo 'cp -rf ../pelican-source/output/* ./'
-	cp -rf ../pelican-source/output/* ./
-	@echo 'git add && commit && push'
-	git add --all
-	git commit -m 'add my blog source'
-	git push
-	cd -
+	cd ../Aleda.github.io && rm -rf '!(.git)' && cp -r ../pelican-source/output/* ./ && git add --all && git commit -m 'add my blog source' && git push
 .PHONY: html help clean regenerate serve serve-global devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
