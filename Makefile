@@ -125,5 +125,5 @@ github: publish
 	git add --all
 	git commit -m 'add my blog source'
 	git push
-	cd - 1>/dev/null 2>/dev/null
+	cd -
 .PHONY: html help clean regenerate serve serve-global devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
