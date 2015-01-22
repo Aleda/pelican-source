@@ -114,7 +114,16 @@ cf_upload: publish
 	cd $(OUTPUTDIR) && swift -v -A https://auth.api.rackspacecloud.com/v1.0 -U $(CLOUDFILES_USERNAME) -K $(CLOUDFILES_API_KEY) upload -c $(CLOUDFILES_CONTAINER) .
 
 github: publish
-	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-	git push origin $(GITHUB_PAGES_BRANCH)
-
+	#ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
+	@echo 'cd ../Aleda.github.io'
+	cd ../Aleda.github.io
+	@echo 'rm -rf !(.git)'
+	rm -rf '!(.git)'
+	@echo 'cp -rf ../pelican-source/output/* ./'
+	cp -rf ../pelican-source/output/* ./
+	@echo 'git add && commit && push'
+	git add --all
+	git commit -m 'add my blog source'
+	git push
+	cd - 1>/dev/null 2>/dev/null
 .PHONY: html help clean regenerate serve serve-global devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
