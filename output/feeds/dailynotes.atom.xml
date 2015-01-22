@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Aleda | Make Different</title><link href="http://aleda.cn/" rel="alternate"></link><link href="http://aleda.cn/feeds/dailynotes.atom.xml" rel="self"></link><id>http://aleda.cn/</id><updated>2015-01-22T12:17:00+08:00</updated><entry><title>markdown测试</title><link href="http://aleda.cn/article/2015/01/markdown_test/" rel="alternate"></link><updated>2015-01-22T12:17:00+08:00</updated><author><name>Aleda</name></author><id>tag:aleda.cn,2015-01-22:article/2015/01/markdown_test/</id><summary type="html">&lt;h3&gt;1. 字体方面&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Aleda | Make Different</title><link href="http://aleda.cn/" rel="alternate"></link><link href="http://aleda.cn/feeds/dailynotes.atom.xml" rel="self"></link><id>http://aleda.cn/</id><updated>2015-01-22T14:44:00+08:00</updated><entry><title>鲁棒性代码的重要性</title><link href="http://aleda.cn/article/2015/01/dailynotes_150122/" rel="alternate"></link><updated>2015-01-22T14:44:00+08:00</updated><author><name>Aleda</name></author><id>tag:aleda.cn,2015-01-22:article/2015/01/dailynotes_150122/</id><summary type="html">&lt;h1&gt;鲁棒性代码的重要性&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h3&gt;一、 随笔记录&lt;/h3&gt;
+&lt;p&gt;今天又在改自己的以前写的代码，写的跟个&lt;strong&gt;shit&lt;/strong&gt;一样，没办法看啊！
+以后一定要注意啊，代码也不好好写，你就别写，也别给自己丢人，更别丢别人的人！
+在自己手上的东西，一定要维护好啊。
+再重申一遍，你要在写一堆&lt;strong&gt;shit&lt;/strong&gt;，你就自断双手！
+自断双手啊！！！！
+自己的平台都维护不好，那怎么能行啊&lt;/p&gt;
+&lt;h3&gt;二、 时间规划&lt;/h3&gt;
+&lt;h4&gt;2.1 上午&lt;/h4&gt;
+&lt;p&gt;又花了一上午的时间弄这个blog，暂时先不花时间在这上边吧。要不然，这一星期都没干什么事！&lt;/p&gt;
+&lt;h4&gt;2.2 下午&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;花了半个小时，把自己的站点调度平台调试一下。最起码得达到可用的状态吧？！
+&lt;em&gt;时间要求：&lt;/em&gt; &lt;strong&gt;30min - 1h&lt;/strong&gt; | &lt;em&gt;details:&lt;/em&gt; &lt;strong&gt;15:00-15:40&lt;/strong&gt; | &lt;em&gt;优先级：&lt;/em&gt; &lt;code&gt;high&lt;/code&gt; | &lt;em&gt;状态：&lt;/em&gt; &lt;code&gt;running&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;2.3 晚上&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;开始对各个模块进行分析总结，并形成文档。
+&lt;em&gt;时间要求：&lt;/em&gt; &lt;strong&gt;3h&lt;/strong&gt; | &lt;em&gt;details:&lt;/em&gt; &lt;strong&gt;19:17-21:42&lt;/strong&gt; | &lt;em&gt;优先级：&lt;/em&gt; &lt;code&gt;high&lt;/code&gt; | &lt;em&gt;状态：&lt;/em&gt; &lt;code&gt;running&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;没做完，明天还得继续。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</summary><category term="dailynotes"></category></entry><entry><title>markdown测试</title><link href="http://aleda.cn/article/2015/01/markdown_test/" rel="alternate"></link><updated>2015-01-22T12:17:00+08:00</updated><author><name>Aleda</name></author><id>tag:aleda.cn,2015-01-22:article/2015/01/markdown_test/</id><summary type="html">&lt;h3&gt;1. 字体方面&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;斜体&lt;/em&gt; &lt;strong&gt;粗体&lt;/strong&gt;
 ~删除线~~
 - 无序列表
