@@ -5,6 +5,7 @@ PELICANOPTS=
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
+#OUTPUTDIR=../Aleda.github.io
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
@@ -93,8 +94,6 @@ stopserver:
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
-	cp -rf $(OUTPUTDIR)/* ../Aleda.github.io
-
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
@@ -117,6 +116,7 @@ github: publish
 	#ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	@echo 'cd ../Aleda.github.io'
 	cd ../Aleda.github.io
+	pwd
 	@echo 'rm -rf !(.git)'
 	rm -rf '!(.git)'
 	@echo 'cp -rf ../pelican-source/output/* ./'
