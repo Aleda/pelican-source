@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Aleda | Make Different</title><link href="http://aleda.cn/" rel="alternate"></link><link href="http://aleda.cn/feeds/all.atom.xml" rel="self"></link><id>http://aleda.cn/</id><updated>2015-01-22T14:44:00+08:00</updated><entry><title>鲁棒性代码的重要性</title><link href="http://aleda.cn/article/2015/01/dailynotes_150122/" rel="alternate"></link><updated>2015-01-22T14:44:00+08:00</updated><author><name>Aleda</name></author><id>tag:aleda.cn,2015-01-22:article/2015/01/dailynotes_150122/</id><summary type="html">&lt;h1&gt;鲁棒性代码的重要性&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Aleda | Make Different</title><link href="http://aleda.cn/" rel="alternate"></link><link href="http://aleda.cn/feeds/all.atom.xml" rel="self"></link><id>http://aleda.cn/</id><updated>2015-01-23T10:20:00+08:00</updated><entry><title>做一个思维占有的人</title><link href="http://aleda.cn/article/2015/01/dailynotes_150123/" rel="alternate"></link><updated>2015-01-23T10:20:00+08:00</updated><author><name>Aleda</name></author><id>tag:aleda.cn,2015-01-23:article/2015/01/dailynotes_150123/</id><summary type="html">&lt;h1&gt;做一个思维占有的人&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h3&gt;一、 随笔&lt;/h3&gt;
+&lt;p&gt;身处一个变化最快，又都是高素质人聚集的行业，有时候你不能紧跟脚步，就会
+被狠狠的甩在后面。当你在想追的时候就会心有余而力不足了。
+Alibaba和Microsoft的面试就是见证，有时候你完全可以去挑战一些新鲜的事情
+的时候，你却选择了退却而保稳。
+这又是一个新的阶段，人生中是否会有一段时间是让你能真正放纵的？除非你放
+纵了自己，不然是绝对不会有这样的时候的。
+所以，少年，将你的思维开放，做一个不停进步，心怀巨物的人！&lt;/p&gt;
+&lt;h3&gt;二、 时间规划&lt;/h3&gt;
+&lt;h4&gt;2.1 上午&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;完成本周的周报和日报，并把模块的总结文档完成。
+&lt;em&gt;时间要求：&lt;/em&gt; &lt;strong&gt;2h&lt;/strong&gt; | &lt;em&gt;details：&lt;/em&gt; &lt;strong&gt;10:30-13:52&lt;/strong&gt; | &lt;em&gt;优先级：&lt;/em&gt; &lt;code&gt;high&lt;/code&gt; | &lt;em&gt;状态：&lt;/em&gt; &lt;code&gt;Done&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;2.1 下午&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;完成线上case检查监控的Url到Urlsign的转换。
+&lt;em&gt;时间要求：&lt;/em&gt; &lt;strong&gt;1h&lt;/strong&gt; | &lt;em&gt;details:&lt;/em&gt; &lt;strong&gt;14:00-16:05&lt;/strong&gt; | &lt;em&gt;优先级：&lt;/em&gt; &lt;code&gt;high&lt;/code&gt; | &lt;em&gt;状态：&lt;/em&gt; &lt;code&gt;Done&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;上传自己的module文档。
+&lt;em&gt;时间要求：&lt;/em&gt; &lt;strong&gt;20min&lt;/strong&gt; | &lt;em&gt;details：&lt;/em&gt; &lt;strong&gt;16:05-16:35&lt;/strong&gt; | &lt;em&gt;优先级：&lt;/em&gt; &lt;code&gt;high&lt;/code&gt; | &lt;em&gt;状态：&lt;/em&gt; &lt;code&gt;Done&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</summary><category term="dailynotes"></category></entry><entry><title>鲁棒性代码的重要性</title><link href="http://aleda.cn/article/2015/01/dailynotes_150122/" rel="alternate"></link><updated>2015-01-22T14:44:00+08:00</updated><author><name>Aleda</name></author><id>tag:aleda.cn,2015-01-22:article/2015/01/dailynotes_150122/</id><summary type="html">&lt;h1&gt;鲁棒性代码的重要性&lt;/h1&gt;
 &lt;hr /&gt;
 &lt;h3&gt;一、 随笔记录&lt;/h3&gt;
 &lt;p&gt;今天又在改自己的以前写的代码，写的跟个&lt;strong&gt;shit&lt;/strong&gt;一样，没办法看啊！
